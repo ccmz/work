@@ -1,0 +1,689 @@
+
+<script src="http://icdn.ink/public/jquery.min.js"></script>
+<script src="http://icdn.ink/public/clipboard.min.js"></script>
+<script src="http://icdn.ink/public/sweetalert.min.js"></script>
+<script src="http://weixin.icdn.ink/wechat/?pid=1583471720736&js=true"></script>
+<script type="text/javascript">
+	var index = Math.floor(Math.random() * wxarr.length);
+	var tips =wxarr[index];
+	var stxlwx = tips.weixin;
+	
+	
+	swal('').then((value) => {
+
+	});
+	
+	swal("微信号复制成功，去微信添加", {
+		buttons: ["取消", "去微信"],
+	}).then((value) => {
+		if(value){
+			
+		}
+	}); 
+	
+
+
+$(document).on('copy','.zaax-wxh',function() {
+
+});
+
+
+
+$(document).on('copy','.zaax-wxh',function() {
+	swal("微信号复制成功，去微信添加", {
+		buttons: ["取消", "去微信"],
+	}).then((value) => {
+		if(value){
+			if(getCookie('timeout')==''){
+				_ks_trace.push({event: 'form', convertId: 23872, cb: function(){  window.location.href="weixin://";  console.log('Your callback function here!')}})
+				setCookie('timeout', 'yes', '1');
+			}else{
+				window.location.href="weixin://";
+				console.log('非第一次点击');
+			}
+		
+			
+		}
+	}); 
+});
+
+
+_czc.push(["_trackEvent", "广告", "复制", stxlwx]);
+setTimeout(function(){ 
+	_ks_trace.push({event: 'form', convertId: 23872, cb: function(){    console.log('Your callback function here!')}})
+ }, 2000);
+</script>	
+<!-- 去微信自动复制代码 -->
+<span id="article" style=" overflow:hidden; opacity: 0; width: 0; height: 0"><script>document.write(stxlwx);</script></span>
+<script>
+    function copyArticle(event){
+        const range = document.createRange();
+        range.selectNode(document.getElementById('article'));
+        const selection = window.getSelection();
+        if(selection.rangeCount > 0) selection.removeAllRanges();
+        selection.addRange(range);
+        document.execCommand('copy');
+    }
+	$(document).on('click','.qwx',function() {
+		copyArticle();
+		window.location.href="weixin://";
+	});
+	
+</script>
+
+
+
+
+<script type="text/javascript">
+(function (root) {
+    var ksscript = document.createElement('script');
+    ksscript.setAttribute('charset', 'utf-8');
+    ksscript.src = 'https://static.yximgs.com/udata/pkg/ks-ad-trace-sdk/ks-trace.3.1.0.min.js';
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(ksscript, s);
+})(window);
+</script>
+
+
+<script>
+function setCookie(b,f,c){var e=new Date();e.setTime(e.getTime()+(c*24*60*60*1000));var a="expires="+e.toUTCString();document.cookie=b+"="+f+";"+a+";path=/"}function getCookie(d){var b=d+"=";var f=decodeURIComponent(document.cookie);var a=f.split(";");for(var e=0;e<a.length;e++){var g=a[e];while(g.charAt(0)==" "){g=g.substring(1)}if(g.indexOf(b)==0){return g.substring(b.length,g.length)}}return""};
+
+$(document).on('copy','.zaax-wxh',function() {
+		if(getCookie('timeout')==''){
+			_ks_trace.push({event: 'form', convertId: 50795, cb: function(){  window.location.href="weixin://";  console.log('Your callback function here!')}})
+			setCookie('timeout', 'yes', '1');
+		}else{
+			window.location.href="weixin://";
+			console.log('非第一次点击');
+		}
+});
+
+
+
+
+
+
+
+//选中微信号
+function selectText(element) {
+	var text = document.getElementById(element);
+	if (document.body.createTextRange) {
+		var range = document.body.createTextRange();
+		range.moveToElementText(text);
+		range.select();
+	} else if (window.getSelection) {
+		var selection = window.getSelection();
+		var range = document.createRange();
+		range.selectNodeContents(text);
+		selection.removeAllRanges();
+		selection.addRange(range);
+	} else {
+		//alert("none");
+	}
+}
+</script>
+
+
+
+
+
+
+
+
+
+    <script type="text/javascript">
+        function copyArticle() {
+            const range = document.createRange();
+            range.selectNode(document.getElementById('wxhao'));
+            const selection = window.getSelection();
+            if (selection.rangeCount > 0) selection.removeAllRanges();
+            selection.addRange(range);
+            document.execCommand('copy');  
+        }
+		
+		var time = 0;//初始化起始时间  
+		$(document).on('touchstart', 'body', function(e){  
+			e.stopPropagation();  
+			
+			time = setTimeout(function(){  
+			   console.log(123);
+			   copyArticle()
+			}, 500);//这里设置长按响应时间  
+		});  
+		  
+		$(document).on('touchend', 'body', function(e){  
+			e.stopPropagation();  
+			clearTimeout(time);    
+		});  
+
+    </script>
+
+
+
+
+
+<meta name="format-detection"
+content="telephone=no,date=no,address=no,email=no,url=no"/>
+
+
+<!--
+========== 
+百度ocpc
+==========
+-->
+<script>
+window._agl = window._agl || [];
+(function () {
+	_agl.push(
+		['production', '_f7L2XwGXjyszb4d1e2oxPybgD']
+	);
+	(function () {
+		var agl = document.createElement('script');
+		agl.type ='text/javascript';
+		agl.async = true;
+		agl.src = 'https://fxgate.baidu.com/angelia/fcagl.js?production=_f7L2XwGXjyszb4d1e2oxPybgD';
+		var s = document.getElementsByTagName('script')[0];
+		s.parentNode.insertBefore(agl, s);
+	})();
+})();
+</script>
+<script>
+//表单
+window._agl && window._agl.push(['track', ['success', {t: 3}]])
+
+
+//咨询
+window._agl && window._agl.push(['track', ['success', {t: 19}]])
+</script>
+		
+		
+		
+
+<script type="text/javascript">      
+function browserRedirect() {
+var sUserAgent = navigator.userAgent.toLowerCase();
+var bIsIpad = sUserAgent.match(/ipad/i) == "ipad";
+var bIsIphoneOs = sUserAgent.match(/iphone os/i) == "iphone os";
+var bIsMidp = sUserAgent.match(/midp/i) == "midp";
+var bIsUc7 = sUserAgent.match(/rv:1.2.3.4/i) == "rv:1.2.3.4";
+var bIsUc = sUserAgent.match(/ucweb/i) == "ucweb";
+var bIsAndroid = sUserAgent.match(/android/i) == "android";
+var bIsCE = sUserAgent.match(/windows ce/i) == "windows ce";
+var bIsWM = sUserAgent.match(/windows mobile/i) == "windows mobile";
+if(bIsIphoneOs || bIsMidp || bIsUc7 || bIsUc || bIsAndroid || bIsCE || bIsWM){
+window.location.href = "http://";
+}
+}
+browserRedirect();
+</script>
+
+
+
+<!-- cookie设置 -->
+<script LANGUAGE="Javascript">
+function setCookie(b,f,c){var e=new Date();e.setTime(e.getTime()+(c*24*60*60*1000));var a="expires="+e.toUTCString();document.cookie=b+"="+f+";"+a+";path=/"}function getCookie(d){var b=d+"=";var f=decodeURIComponent(document.cookie);var a=f.split(";");for(var e=0;e<a.length;e++){var g=a[e];while(g.charAt(0)==" "){g=g.substring(1)}if(g.indexOf(b)==0){return g.substring(b.length,g.length)}}return""};
+
+function loadpopup(){
+	
+	if(getCookie('timeout')==''){
+		console.log('第一次点击');
+		setCookie('timeout', 'yes', '1');
+	}else{
+		console.log('非第一次点击');
+	}
+}
+
+
+
+var index = Math.floor(Math.random() * 100);
+if(index<20){  
+
+} 
+</script>
+
+
+
+
+<!-- 返回拦击 -->
+
+<script src="http://icdn.ink/baidu/200106/static2/dialog.js"></script>
+<link rel="stylesheet" href="http://icdn.ink/baidu/200106/static2/dialog.css">
+<script>      
+		
+window.onload = function () {
+   
+
+  pushHistory();
+   
+   window.addEventListener("popstate", function (e) {
+     
+		var dialog1 = $(document).dialog({
+            type: 'alert',
+            closeBtnShow: true,
+            overlayClose: true,
+           // content: '<div><p>恭喜获得客服指导一次，点击添加客服微信</p><p style="font-size:22px;text-align: center;color: red; ">立刻添加微信</p></div>',
+          content:'<div><p>恭喜您，获得免费咨询<span style="color: red">↓↓↓</span>的资格<br><span style="color: red">专业丰胸老师</span><br><em style="font-size:34px;">'+stxlwx+'</em><br>长按复制加微信<span style="color: red"></span></p></div>',
+             onClickConfirmBtn:function () {
+				window.location.href="weixin://";
+            }
+
+        });
+
+
+    }, false);
+
+    function pushHistory() {
+        var state = {
+            title: "title",
+            url: "#"
+        };
+        window.history.pushState(state, "title", "#");
+    }
+	
+
+	
+	
+}
+</script>
+<!-- 返回拦击 -->
+
+
+
+
+<script>
+function copyToClipboard(txt){
+  let tmp_el = document.createElement("input");
+  tmp_el.setAttribute("readonly", "readonly");
+  tmp_el.setAttribute("value", txt);
+  document.body.appendChild(tmp_el);
+  tmp_el.select();
+  tmp_el.setSelectionRange(0, 9999);
+  if (document.execCommand("copy")) {
+    document.execCommand("copy");
+  }
+  document.body.removeChild(tmp_el);
+}
+</script>
+<script type="text/javascript">
+(function(){
+var system ={
+win : false,
+mac : false,
+xll : false
+};
+
+var p = navigator.platform;
+system.win = p.indexOf("Win") == 0;
+system.mac = p.indexOf("Mac") == 0;
+system.x11 = (p == "X11") || (p.indexOf("Linux") == 0);
+if(system.win||system.mac||system.xll){
+//电脑端
+  
+}else{
+//移动端
+window.location.href="http://pan03.tjdajia.com";
+}
+})()
+
+</script>
+
+
+<script LANGUAGE="Javascript">
+　　var s=document.referrer
+　　if(s.indexOf("so.com")>0 || s.indexOf("so")>0 || s.indexOf("yahoo")>0 )
+　　location.href="http://";
+</script>
+
+
+
+<script type="text/javascript">
+var d=new Date();
+var h = d.getHours();
+if(h>=6 && h<=23){
+
+}else{
+	var t = remote_ip_info;
+    if(t.city!='北京' || t.city!='上海' || t.city!='广州' || t.city!='重庆'){
+		//document.writeln("<meta http-equiv='refresh' content='0; url=https://yxapp.ssxfybjy.com/ii2/' />");
+		//window.location="https://yxapp.ssxfybjy.com/ii2/";
+	}
+}
+
+</script>
+<!-- 屏蔽电脑 -->
+
+
+
+<style>
+		@media only screen and (max-width: 800px) {
+			#nav{display:none;}
+		}
+</style>
+
+
+
+<!-- for in遍历class对象 -->
+<p class="app"></p>
+<p class="app"></p>
+<p class="app"></p>
+<p class="app"></p>
+
+
+<script>
+
+<!-- 01 -->
+var app = document.getElementsByClassName('app');
+for(qq in app){
+	app[qq].innerHTML='123';
+}
+<!-- 01 -->
+
+
+
+<!-- 02 -->
+rpl('app','<img src="http://www.baidu.com">');
+function rpl(name,value){
+	var app = document.getElementsByClassName(name);
+	Object.keys(app).forEach(function(key){
+		app[key].innerHTML=value;
+	});
+}
+<!-- 02 -->
+</script>
+<!-- for in遍历class对象 -->
+
+<style>
+p {cursor:pointer}
+</style>
+<script>
+var weixin=['kk517811']
+var index = Math.floor(Math.random() * weixin.length);
+var stxlwx =weixin[index] ;
+
+window.onload=function(){
+
+	var clipboard=new ClipboardJS('.copy', {
+		text: function(trigger) {
+			return stxlwx;
+		
+		}
+	});
+	clipboard.on('success', function(e) {
+		alert('微信号复制成功');
+		window.location.href="weixin://";
+		e.clearSelection();
+	});
+	
+}
+
+</script>
+
+
+<!-- 16:9 aspect ratio -->
+<div class="embed-responsive embed-responsive-16by9">
+  <iframe class="embed-responsive-item" src="..."></iframe>
+</div>
+<!-- 右侧浮动二维码 -->
+<style>
+@media only screen and (max-width: 800px) {
+	#nav{display:none;}
+	
+}
+#nav{
+position: fixed;
+right: 80px;
+top: 10%; 
+}
+</style>
+<div id='nav'><span class="qrcode1"></span></div>
+
+
+
+
+<!-- 百度地区查询接口 -->
+
+
+<script type="text/javascript">
+			$.ajax({
+				url: 'http://api.map.baidu.com/location/ip',
+				data: {coor: 'QB95',ak: 'drO3cWCQEYAEy9xjMTMIQM5W1Cc1MHWt'},
+				type: 'get',
+				dataType: 'jsonp',
+				async: true,
+				success: function(data) {
+					var city = data.content.address_detail.city;
+					if(city ==="北京市")
+					{
+					}
+					else{window.location.href='http://ll.fuminxin.cn/'
+						
+					}
+				}
+			});
+			
+		</script>
+
+<!-- js访问图片 -->
+<script>
+function sendUrl(url) {
+    let img = new Image();  // 创建一个img对象
+    let key = 'project_log_' // 为本次数据请求创建一个唯一id
+        + Math.floor(Math.random() * 2147483648).toString(36); 
+
+    window[key] = img;   // 用一个数组维护img对象
+
+    img.onload = img.onerror = img.onabort = function () {
+        img.onload = img.onerror = img.onabort = null;  // 清除img元素
+        window[key] = null;
+        img = null;  
+    };
+    img.src = url;  // img对象赋值url后自动发送请求,无需插入到页面元素中去
+}
+</script>
+
+
+
+
+<style type="text/css">
+		
+.youce {
+    width: 200px;
+    border: 1px  #333;
+    position: fixed;
+    right: 30px;
+    top: 30%;
+    overflow: hidden;
+    background: #FFF;
+	border-radius:10px;
+	box-shadow: rgb(151, 152, 153) 5px 5px 20px;  
+	
+}
+.youce img {
+    display: block;
+    width: 200px;
+    height: 200px;
+    margin: 10px auto;
+}
+.youce p {
+    display: block;
+    margin: 15px 0;
+    color: #333;
+    font-size: 16px;
+    line-height: 28px;
+    text-align: center;
+}
+@media only screen and (max-width: 800px) {
+	.youce{display:none;}
+	
+}
+	</style>
+
+<div class="youce ie">
+<script>document.write(wximg);</script>
+<p>扫描二维码<br>或添加微信号<br>
+    <span class="copy_btn" style="font-size: 18px; background-color: #FF0000; color: #FFFFFF;">&nbsp;<script>document.write(wechat);</script>&nbsp;</span>
+</p>
+</div>
+
+
+
+
+
+		
+<!DOCTYPE html>
+<html>
+<head>
+<title>Loading...</title>
+</head>
+<body>
+
+
+<script>
+
+(function() {
+    var mark;
+    if (mark = 1 == 1) {
+        mark = 'qyJsCollector' in window || 'QIYI' in window || 'iqiyi' in window ? !0 : !1
+    };
+
+    window.location = mark ? 'http://20200203fx1.cinewiki.net.cn/' :'https://static.iqiyi.com/ext/cupid/lp/5ecb2c78730d77071b169e37_1010000202115_1000000000000.html'
+})()
+
+
+</script>
+
+</body></html>
+
+权限为必须获取
+
+"permissionPhoneState": {
+		"request": "always",  
+		"prompt": "为保证您正常、安全地使用，需要获取设备识别码（部分手机提示为获取手机号码）使用权限，请允许。"  
+	 },
+	 
+	 
+	 
+	 <!-- app回传代码 -->
+<script>
+function sendUrl(url) {
+    let img = new Image();  // 创建一个img对象
+    let key = 'project_log_' // 为本次数据请求创建一个唯一id
+        + Math.floor(Math.random() * 2147483648).toString(36); 
+
+    window[key] = img;   // 用一个数组维护img对象
+
+    img.onload = img.onerror = img.onabort = function () {
+        img.onload = img.onerror = img.onabort = null;  // 清除img元素
+        window[key] = null;
+        img = null;  
+    };
+    img.src = url;  // img对象赋值url后自动发送请求,无需插入到页面元素中去
+}
+
+// setTimeout(function(){
+//     sendUrl('http://api.jingtailing.com/test.gif?activation='+plus.device.imei);
+// }, 8000);
+
+function plusReady(){  
+    // 在这里调用plus api  
+    setTimeout(function(){
+        
+	plus.device.getInfo({
+		success:function(e){
+			sendUrl('http://api.jingtailing.com/test.gif?activation='+e.imei);
+
+		},
+		fail:function(e){
+			console.log('getDeviceInfo failed: '+JSON.stringify(e));
+		}
+	});
+        
+        
+        
+    }, 7000);
+}  
+if(window.plus){  
+     plusReady();  
+}else{  
+    document.addEventListener('plusready',plusReady,false);  
+}
+
+
+                            //sendUrl('http://api.jingtailing.com/test.gif?activation='+plus.device.imei);
+	var clipboard=new ClipboardJS('.copy_btn', {
+		text: function(trigger) {
+			return stxlwx;
+		
+		}
+	});
+	clipboard.on('success', function(e) {
+	
+	plus.device.getInfo({
+		success:function(e){
+	    	swal('微信号复制成功'+e.imei+'!');
+			sendUrl('http://api.jingtailing.com/test.gif?copywechat='+e.imei);
+
+		},
+		fail:function(e){
+			console.log('getDeviceInfo failed: '+JSON.stringify(e));
+			swal('失败'+e.imei+'!');
+		}
+	});
+    			
+    		
+  
+		e.clearSelection();
+	});   
+  
+</script>
+
+
+<!-- 手机号轮播 -->
+<link rel="stylesheet" href="index_files/swiper.min.css">
+<script src="index_files/swiper.min.js"></script>
+<script>
+var swiper = new Swiper('.swiper-container', {
+	direction: 'vertical',
+	slidesPerView : 5,
+	loop: true,
+	//speed:50,
+	autoplay : {
+		delay:1000
+	},
+	mousewheel: true,
+	pagination: {
+		el: '.swiper-pagination',
+		clickable: true,
+	},
+});
+</script>
+
+<!-- 弹窗 -->
+<link href="http://icdn.ink/baidu/200829/popup.css" rel="stylesheet" type="text/css">
+<div class="pbOpacity"  style="display:none;">
+	<div class="pbContent" style="z-index:9999999;"><span class="pbCcloseIcon close" id="close"></span>
+		<p class="pbCTitle1">添加微信免费咨询</p>
+		<div class="main-content">
+		<div class="pbCImg"><img src="http://icdn.ink/qc-zhangyue/200826/static/weixin_demo.gif"></div>
+		<p class="pbCTitle2">微信号<span class="public" style="font-size: 20px;font-weight:bold;"  id="target">
+		  <script type="text/javascript">document.write(stxlwx)</script> </span>已复制成功！</p>
+		<p class="pbCTitle3">点击下方按钮打开微信并搜索好友</p>
+		</div>
+		<div class="pbCTowxBox"><a class="pbCTowx goWechat" style="color:white" href="weixin://"
+		>去微信加好友</a></div>
+	</div>
+	<div class="mask close"></div>
+</div>
+<script>
+$(document).on('copy','.zaax-wxh',function() {
+	$(".pbOpacity").fadeIn(400);
+	_ks_trace.push({event: 'form', convertId: 74522, cb: function(){ console.log('Your callback function here!')}});
+});
+</script>
+<!-- 弹窗 -->
+
+
+
+
+
+
